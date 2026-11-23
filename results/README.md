@@ -1,6 +1,6 @@
 # results/
 
-Tables (CSV) and findings notes. Every CSV here is saved by a script in `src/`, never made by hand.
+Tables (CSV) and findings notes. Every CSV here should be saved by a script in `src/`.
 
 | File | Made by | Owner |
 |---|---|---|
@@ -24,5 +24,3 @@ Example:
 ```
 - Reviews that mention bugs are 41% Not Recommended vs. 12% for the rest (results/theme_table.csv).
 ```
-
-Desmond builds the slides from these notes. If a number is not in your note, it will not make it into the deck.
