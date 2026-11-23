@@ -1,0 +1,4 @@
+model,accuracy,precision_not_rec,recall_not_rec,roc_auc,pr_auc
+Baseline (always 'Recommended'),0.9348,0.0,0.0,0.5,0.0652
+Logistic regression,0.9341,0.4619,0.0649,0.7356,0.2132
+Gradient boosting (ours),0.935,0.5102,0.1056,0.7622,0.2489

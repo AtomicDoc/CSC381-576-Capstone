@@ -1,0 +1,12 @@
+feature,name,mean_abs_shap,direction
+hours_played,Hours played,0.5213,higher -> less Not Recommended
+language,Language,0.5196,Chinese/other-language reviews vs English: see shap_values.csv
+days_since_launch,Date posted,0.4918,higher -> less Not Recommended
+review_words,Review length (words),0.3094,higher -> more Not Recommended
+theme_story_characters,Mentions story / characters,0.1426,yes -> less Not Recommended
+theme_bugs_performance,Mentions bugs / performance,0.1329,yes -> more Not Recommended
+theme_refunds_promises,Mentions refunds / broken promises,0.0637,yes -> more Not Recommended
+theme_price_value,Mentions price / value,0.0511,yes -> more Not Recommended
+theme_gameplay,Mentions gameplay,0.0358,yes -> more Not Recommended
+theme_fixed_redemption,Mentions it being fixed,0.0144,yes -> less Not Recommended
+received_free,Got the game free,0.0069,yes -> less Not Recommended

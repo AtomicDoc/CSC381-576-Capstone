@@ -1,0 +1,117 @@
+{
+ "model_check": [
+  {
+   "model": "Baseline (always 'Recommended')",
+   "accuracy": 0.9348,
+   "precision_not_rec": 0.0,
+   "recall_not_rec": 0.0,
+   "roc_auc": 0.5,
+   "pr_auc": 0.0652
+  },
+  {
+   "model": "Logistic regression",
+   "accuracy": 0.9341,
+   "precision_not_rec": 0.4619,
+   "recall_not_rec": 0.0649,
+   "roc_auc": 0.7356,
+   "pr_auc": 0.2132
+  },
+  {
+   "model": "Gradient boosting (ours)",
+   "accuracy": 0.935,
+   "precision_not_rec": 0.5102,
+   "recall_not_rec": 0.1056,
+   "roc_auc": 0.7622,
+   "pr_auc": 0.2489
+  }
+ ],
+ "n_train": 691541,
+ "n_test": 68789,
+ "n_all": 760330,
+ "test_pct_not_recommended": 0.0652,
+ "base_log_odds": -1.9891,
+ "base_probability": 0.1204,
+ "sample_size": 20000,
+ "sample_reviews_per_year": {
+  "2020": 8305,
+  "2021": 3861,
+  "2022": 2730,
+  "2023": 3309,
+  "2024": 1795
+ },
+ "sample_reviews_per_language": {
+  "english_latin": 12001,
+  "chinese": 4878,
+  "russian_cyrillic": 1735,
+  "other": 832,
+  "korean_japanese": 554
+ },
+ "ranking": [
+  {
+   "feature": "hours_played",
+   "name": "Hours played",
+   "mean_abs_shap": 0.5213,
+   "direction": "higher -> less Not Recommended"
+  },
+  {
+   "feature": "language",
+   "name": "Language",
+   "mean_abs_shap": 0.5196,
+   "direction": "Chinese/other-language reviews vs English: see shap_values.csv"
+  },
+  {
+   "feature": "days_since_launch",
+   "name": "Date posted",
+   "mean_abs_shap": 0.4918,
+   "direction": "higher -> less Not Recommended"
+  },
+  {
+   "feature": "review_words",
+   "name": "Review length (words)",
+   "mean_abs_shap": 0.3094,
+   "direction": "higher -> more Not Recommended"
+  },
+  {
+   "feature": "theme_story_characters",
+   "name": "Mentions story / characters",
+   "mean_abs_shap": 0.1426,
+   "direction": "yes -> less Not Recommended"
+  },
+  {
+   "feature": "theme_bugs_performance",
+   "name": "Mentions bugs / performance",
+   "mean_abs_shap": 0.1329,
+   "direction": "yes -> more Not Recommended"
+  },
+  {
+   "feature": "theme_refunds_promises",
+   "name": "Mentions refunds / broken promises",
+   "mean_abs_shap": 0.0637,
+   "direction": "yes -> more Not Recommended"
+  },
+  {
+   "feature": "theme_price_value",
+   "name": "Mentions price / value",
+   "mean_abs_shap": 0.0511,
+   "direction": "yes -> more Not Recommended"
+  },
+  {
+   "feature": "theme_gameplay",
+   "name": "Mentions gameplay",
+   "mean_abs_shap": 0.0358,
+   "direction": "yes -> more Not Recommended"
+  },
+  {
+   "feature": "theme_fixed_redemption",
+   "name": "Mentions it being fixed",
+   "mean_abs_shap": 0.0144,
+   "direction": "yes -> less Not Recommended"
+  },
+  {
+   "feature": "received_free",
+   "name": "Got the game free",
+   "mean_abs_shap": 0.0069,
+   "direction": "yes -> less Not Recommended"
+  }
+ ]
+}

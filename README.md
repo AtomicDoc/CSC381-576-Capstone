@@ -45,7 +45,9 @@ python src/05_language_length.py
 python src/06_gap.py
 ```
 
-Run 01 and 02 first: the other scripts read `results/shap_values.csv`, which 02 makes.
+**To start your part:** download the raw file into `data/`, then run `python src/01_prepare_data.py` (about 30 seconds).
+It makes `data/clean.csv`, the full review file. The SHAP results (`results/shap_values.csv`, `driver_ranking.csv`)
+are already in the repo, so you don't need to run 02 yourself. `results/README.md` explains every column.
 
 ## Rules
 
