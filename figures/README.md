@@ -11,4 +11,3 @@ Charts, saved as PNG by the scripts in `src/`. Not made in Excel, not screenshot
 | `length_shap.png` | `05_language_length.py` | Person 4 |
 | `gap_waterfall.png` | `06_gap.py` | Desmond |
 
-Desmond's charts for the deck (model check, SHAP example, ranking, beeswarm) also go here.
