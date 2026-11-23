@@ -13,4 +13,3 @@ The professor will run them.
 | `05_language_length.py` | Person 4 | Chinese vs other reviews, review length: SHAP curve and length table |
 | `06_gap.py` | Desmond | The 2021 → 2024 gap split and waterfall chart |
 
-If AI helped write your script, say so in a comment on its first line.
