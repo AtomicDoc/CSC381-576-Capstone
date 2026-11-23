@@ -1,0 +1,15 @@
+# The raw and cleaned data are far too big for GitHub; everyone keeps them locally
+data/*.csv
+data/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
