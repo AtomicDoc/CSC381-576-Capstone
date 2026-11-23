@@ -1,0 +1,13 @@
+# Team 7 capstone: complaint-theme word lists
+# A review 'mentions' a theme if its lowercased text contains ANY word or phrase on that theme's line,
+# as a whole word (so 'bug' does not match 'debug'). '$' matches anywhere. One theme per line:
+# theme_name: word, word, phrase, ...
+# Tested on the 760,330 reviews: words that mostly matched the wrong thing were removed
+# (e.g. 'redemption' = Red Dead Redemption, 'lying' = song lyrics, 'character' = character creation).
+
+bugs_performance: bug, bugs, buggy, glitch, glitches, glitchy, crash, crashes, crashing, broken, unplayable, fps, framerate, frame rate, stutter, stuttering, performance, optimization, optimized, optimised, t-pose
+story_characters: story, storyline, plot, characters, johnny, keanu, judy, panam, river, narrative, writing, quests, side quests, ending, endings
+fixed_redemption: fixed, redeemed, comeback, good now, great now, much better now, amazing now, redemption arc
+refunds_promises: refund, refunded, refunds, promised, promises, lied, scam, false advertising, misleading, overhyped, marketing, cut content
+price_value: price, sale, on sale, full price, discount, money, worth it, not worth, worth the money, worth the price, $, dollars, overpriced
+gameplay: gameplay, driving, cars, combat, gunplay, shooting, police, ai, npc, npcs, crafting, skill tree, perks, stealth, hacking, open world

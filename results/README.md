@@ -6,7 +6,7 @@ Tables (CSV) and findings notes. Every CSV here is saved by a script in `src/`, 
 |---|---|---|
 | `shap_values.csv` | `02_driver_analysis.py` | Desmond |
 | `driver_ranking.csv` | `02_driver_analysis.py` | Desmond |
-| `theme_words.txt` | written by hand: the final word list for each theme | Person 2 |
+| `theme_words.txt` | written by hand: the word list for each theme (done; tested on all reviews) | 
 | `theme_table.csv` | `03_themes.py` | Person 2 |
 | `notes_person2.txt` | written by hand | Person 2 |
 | `hours_table.csv` | `04_hours.py` | Person 3 |
@@ -25,4 +25,3 @@ Example:
 - Reviews that mention bugs are 41% Not Recommended vs. 12% for the rest (results/theme_table.csv).
 ```
 
-Desmond builds the slides from these notes. If a number is not in your note, it will not make it into the deck.

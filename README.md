@@ -24,8 +24,8 @@ Each folder's own README lists the exact file names.
 
 | Person | Part | Script | Hands in (in `results/` and `figures/`) |
 |---|---|---|---|
-| 1 · Desmond | Data, model, SHAP results, the 2021 → 2024 gap split, slideshow, submitting | `src/01_prepare_data.py`, `src/02_driver_analysis.py`, `src/06_gap.py` | `shap_values.csv`, `driver_ranking.csv`, `gap_table.csv`, `gap_waterfall.png` |
-| 2 · (name) | Complaint themes | `src/03_themes.py` | `theme_words.txt`, `theme_table.csv`, `notes_person2.txt`, `themes_ranking.png`, `themes_over_time.png` |
+| 1 · Desmond | Data, model, SHAP results, the 2021 → 2024 gap split, slideshow, submitting | `src/01_prepare_data.py`, `src/02_driver_analysis.py`, `src/06_gap.py` | `theme_words.txt`, `shap_values.csv`, `driver_ranking.csv`, `gap_table.csv`, `gap_waterfall.png` |
+| 2 · (name) | Complaint themes | `src/03_themes.py` | `theme_table.csv`, `notes_person2.txt`, `themes_ranking.png`, `themes_over_time.png` |
 | 3 · (name) | Hours played and who was reviewing | `src/04_hours.py` | `hours_table.csv`, `notes_person3.txt`, `hours_shap.png`, `hours_2021_vs_2024.png` |
 | 4 · (name) | Chinese-language reviews and review length | `src/05_language_length.py` | `chinese_table.csv`, `length_table.csv`, `notes_person4.txt`, `length_shap.png` |
 
