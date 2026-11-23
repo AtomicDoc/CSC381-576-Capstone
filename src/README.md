@@ -6,8 +6,8 @@ The professor will run them.
 
 | Script | Owner | What it does |
 |---|---|---|
-| `01_prepare_data.py` | Desmond | Cleans the raw file and builds the features (including the theme columns) |
-| `02_driver_analysis.py` | Desmond | Checks the model, computes SHAP values → `results/shap_values.csv`, `results/driver_ranking.csv` |
+| `01_prepare_data.py` | Desmond | **Done.** Cleans the raw file and builds the features (including the theme columns) → `data/clean.csv` |
+| `02_driver_analysis.py` | Desmond | **Done.** Checks the model, computes SHAP values → `results/shap_values.csv`, `results/driver_ranking.csv` |
 | `03_themes.py` | Person 2 | Complaint themes: ranking chart, theme table, themes over time |
 | `04_hours.py` | Person 3 | Hours played: SHAP curve, hours table, 2021 vs 2024 reviewers |
 | `05_language_length.py` | Person 4 | Chinese vs other reviews, review length: SHAP curve and length table |
